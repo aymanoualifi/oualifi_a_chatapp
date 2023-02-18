@@ -1,0 +1,19 @@
+@import './modules/reset';
+@import './modules/vars';
+
+@import './modules/chatmessage';
+
+// write some defaults here
+body {
+    font-size: 14px;
+    background-color: #350d0d;
+    color: white;
+
+    font-family: Arial, sans-serif;
+}
+
+main { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
